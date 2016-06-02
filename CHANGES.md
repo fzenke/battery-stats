@@ -1,3 +1,19 @@
+0.5.4 (2016-05-22)
+=====
+* Fix typos breaking battery-graph.
+* Get battery-stats-graph working when selected from the desktop file.
+
+0.5.3 (2016-05-22)
+=====
+* Fixed some typos in the documentation.
+* Added keywords to desktop files.
+* Stopped installing non-working battery-stats-graph-gnuplot until it
+  is fixed or we decide to drop it.
+* Adjusted battery-log to report log files sorted on file timestamp.
+* Made battery-stats-collector able to handle more types of hardware
+  where AC is named ACAD.
+* Added linear fit and colors to output from battery-graph script.
+
 0.5.2 (2016-03-29)
 =====
 * Extended battery-stats-collector to handle batteries with charge_*
@@ -29,7 +45,7 @@
 0.4.0 (2016-03-14)
 =====
 * New developer.
-* Collector rewritten as shell script, loosing some features along the way.
+* Collector rewritten as shell script, losing some features along the way.
 
 0.3.7 (unreleased)
 =====

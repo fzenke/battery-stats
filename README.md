@@ -50,7 +50,7 @@ Note that several sorts of bugs can result in incorrect statistics.  Such
 bugs can be introduced in several ways:
 
 *   There are different ways of measuring "how full" a battery is.
-    Apparantly, it can be measured by the charging current.  Such a
+    Apparently, it can be measured by the charging current.  Such a
     measurement has to be "calibrated" with knowledge of the battery
     type (NiCad, LiIon etc), number of cells etc.
 
@@ -97,10 +97,18 @@ You will need:
 
 Installing it
 =============
-Debian GNU/Linux users:  Just apt-get install the .deb.
-Everybody else: Read on and do it the hard way.
 
-The hard way is not that complicated:
+Debian
+------
+
+Debian unstable and wheezy have a package available:
+
+    apt-get install battery-stats
+
+Installing from source
+----------------------
+
+
 -	Make sure that you have bash installed
 -	Make sure that you have gnuplot installed (only needed if you
 	actually want graphs)
